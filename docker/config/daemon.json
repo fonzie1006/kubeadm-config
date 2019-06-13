@@ -1,0 +1,12 @@
+{
+  "registry-mirrors": ["http://xxxxxxxxxxx"],
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "max-concurrent-downloads": 20,
+  "log-driver": "json-file",
+  "log-level": "warn",
+  "log-opts": {
+    "max-size": "100m",
+    "max-file": "3"
+    },
+  "data-root": "/var/lib/docker"
+}
